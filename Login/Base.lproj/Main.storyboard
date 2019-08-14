@@ -18,75 +18,95 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="xxa-uI-Ecq">
-                                <rect key="frame" x="0.0" y="0.0" width="384" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="xxa-uI-Ecq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FEM-Rg-lsO">
-                                <rect key="frame" x="30" y="226" width="97" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FEM-Rg-lsO">
+                                <rect key="frame" x="30" y="223" width="233" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4P-Vi-zTF">
-                                <rect key="frame" x="30" y="311" width="97" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o4P-Vi-zTF">
+                                <rect key="frame" x="30" y="307" width="233" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN HERE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTu-2y-3oV">
-                                <rect key="frame" x="30" y="74" width="97" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="30" y="89" width="129" height="20"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
                                 <color key="textColor" red="0.9719816765" green="0.98823529409999999" blue="0.96945756809999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hq-3U-pSN">
-                                <rect key="frame" x="30" y="196" width="41" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ohr-DU-INo">
+                                <rect key="frame" x="30" y="279" width="233" height="20"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
                                 <color key="textColor" red="0.9719816765" green="0.98823529409999999" blue="0.96945756809999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ohr-DU-INo">
-                                <rect key="frame" x="30" y="282" width="74" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fe8-5d-ef8">
+                                <rect key="frame" x="30" y="360" width="164" height="20"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
                                 <color key="textColor" red="0.9719816765" green="0.98823529409999999" blue="0.96945756809999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Forgot Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fe8-5d-ef8">
-                                <rect key="frame" x="30" y="364" width="137" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.9719816765" green="0.98823529409999999" blue="0.96945756809999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Already have an accunt? Sign" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fg-w1-C4c">
-                                <rect key="frame" x="86" y="543" width="225" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.9719816765" green="0.98823529409999999" blue="0.96945756809999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dki-Yq-DUS">
-                                <rect key="frame" x="150" y="505" width="54" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dki-Yq-DUS">
+                                <rect key="frame" x="150" y="505" width="72" height="32"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
                                 <state key="normal" title="SIGN IN">
                                     <color key="titleColor" red="0.97198167653433432" green="0.9882352941176471" blue="0.96945756813200568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an accunt? Sign" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fg-w1-C4c">
+                                <rect key="frame" x="30" y="549" width="305" height="20"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                <color key="textColor" red="0.9719816765" green="0.98823529409999999" blue="0.96945756809999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hq-3U-pSN">
+                                <rect key="frame" x="30" y="195" width="51.5" height="20"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                <color key="textColor" red="0.9719816765" green="0.98823529409999999" blue="0.96945756809999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="aTu-2y-3oV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="0J2-v9-UeC"/>
-                            <constraint firstItem="FEM-Rg-lsO" firstAttribute="top" secondItem="6Hq-3U-pSN" secondAttribute="bottom" constant="9" id="A3m-Wu-ztV"/>
-                            <constraint firstItem="Ohr-DU-INo" firstAttribute="top" secondItem="FEM-Rg-lsO" secondAttribute="bottom" constant="26" id="JC1-zG-H29"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aTu-2y-3oV" secondAttribute="trailing" constant="248" id="Kcg-CK-cwj"/>
-                            <constraint firstItem="o4P-Vi-zTF" firstAttribute="top" secondItem="Ohr-DU-INo" secondAttribute="bottom" constant="8" id="SMI-rc-xab"/>
-                            <constraint firstItem="dki-Yq-DUS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="UHX-Je-NiP"/>
-                            <constraint firstItem="dki-Yq-DUS" firstAttribute="leading" secondItem="xxa-uI-Ecq" secondAttribute="trailing" constant="-204" id="dHA-2O-fO3"/>
-                            <constraint firstItem="7fg-w1-C4c" firstAttribute="top" secondItem="dki-Yq-DUS" secondAttribute="bottom" constant="8" id="fIi-nk-3PR"/>
-                            <constraint firstItem="xxa-uI-Ecq" firstAttribute="leading" secondItem="aTu-2y-3oV" secondAttribute="trailing" constant="-127" id="fnK-97-gDG"/>
-                            <constraint firstItem="6Hq-3U-pSN" firstAttribute="top" secondItem="aTu-2y-3oV" secondAttribute="bottom" constant="101" id="foT-L8-aHj"/>
-                            <constraint firstItem="fe8-5d-ef8" firstAttribute="top" secondItem="o4P-Vi-zTF" secondAttribute="bottom" constant="23" id="vPh-MR-2Ks"/>
+                            <constraint firstItem="Ohr-DU-INo" firstAttribute="top" secondItem="FEM-Rg-lsO" secondAttribute="bottom" constant="26" id="4Vm-M6-eI0"/>
+                            <constraint firstItem="aTu-2y-3oV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="5dE-I3-fYl"/>
+                            <constraint firstAttribute="bottom" secondItem="xxa-uI-Ecq" secondAttribute="bottom" id="61I-MH-8mV"/>
+                            <constraint firstItem="xxa-uI-Ecq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6eH-hR-Ilk"/>
+                            <constraint firstItem="7fg-w1-C4c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="6pa-qJ-96w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fe8-5d-ef8" secondAttribute="trailing" constant="181" id="7s3-sW-ZwS"/>
+                            <constraint firstItem="Ohr-DU-INo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="9iS-ft-5HY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Hq-3U-pSN" secondAttribute="trailing" constant="293.5" id="BcS-Od-1zZ"/>
+                            <constraint firstItem="xxa-uI-Ecq" firstAttribute="leading" secondItem="FEM-Rg-lsO" secondAttribute="trailing" constant="-263" id="DGh-VV-EGU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7fg-w1-C4c" secondAttribute="bottom" constant="98" id="Hh2-r7-ai7"/>
+                            <constraint firstItem="aTu-2y-3oV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="IEp-mV-a56"/>
+                            <constraint firstItem="FEM-Rg-lsO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Ijy-va-sAc"/>
+                            <constraint firstItem="xxa-uI-Ecq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JGk-06-YNC"/>
+                            <constraint firstItem="dki-Yq-DUS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="K1O-DV-nym"/>
+                            <constraint firstItem="o4P-Vi-zTF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="M2g-He-cNO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dki-Yq-DUS" secondAttribute="trailing" constant="153" id="O50-I4-U3W"/>
+                            <constraint firstItem="fe8-5d-ef8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="OtG-bc-TII"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aTu-2y-3oV" secondAttribute="trailing" constant="216" id="Qjv-Mg-b2W"/>
+                            <constraint firstItem="6Hq-3U-pSN" firstAttribute="top" secondItem="aTu-2y-3oV" secondAttribute="bottom" constant="85" id="W2d-xv-W8m"/>
+                            <constraint firstItem="FEM-Rg-lsO" firstAttribute="top" secondItem="6Hq-3U-pSN" secondAttribute="bottom" constant="9" id="btz-LS-u5Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ohr-DU-INo" secondAttribute="trailing" constant="263" id="hZf-Uo-F3A"/>
+                            <constraint firstItem="o4P-Vi-zTF" firstAttribute="top" secondItem="Ohr-DU-INo" secondAttribute="bottom" constant="8" id="hd5-pU-4dj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7fg-w1-C4c" secondAttribute="trailing" constant="40" id="lb3-BK-VZC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o4P-Vi-zTF" secondAttribute="trailing" constant="112" id="mZQ-c5-fkB"/>
+                            <constraint firstItem="7fg-w1-C4c" firstAttribute="top" secondItem="dki-Yq-DUS" secondAttribute="bottom" constant="12" id="mci-YH-aIl"/>
+                            <constraint firstItem="fe8-5d-ef8" firstAttribute="top" secondItem="o4P-Vi-zTF" secondAttribute="bottom" constant="23" id="puh-q0-K2f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FEM-Rg-lsO" secondAttribute="trailing" constant="112" id="sk2-C1-Ch8"/>
+                            <constraint firstItem="dki-Yq-DUS" firstAttribute="top" secondItem="fe8-5d-ef8" secondAttribute="bottom" constant="125" id="vt8-gf-r4M"/>
+                            <constraint firstItem="xxa-uI-Ecq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xS1-Xs-Rcd"/>
+                            <constraint firstItem="6Hq-3U-pSN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="z9U-ME-SGc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
